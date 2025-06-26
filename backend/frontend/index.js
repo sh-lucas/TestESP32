@@ -28,7 +28,7 @@ async function subscribeUser() {
     console.log("Inscrição de Push obtida:", subscription);
 
     // 3. Envia a inscrição para o backend
-    await fetch("http://137.131.149.96/subscribe", {
+    await fetch("http://137.131.149.96:8080/subscribe", {
       method: "POST",
       body: JSON.stringify(subscription),
       headers: {
