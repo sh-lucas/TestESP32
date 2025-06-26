@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Github/operational-systems"
+		},
+		{
+			"name": "TestESP32",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
